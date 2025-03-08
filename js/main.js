@@ -1,7 +1,11 @@
 const inputText = document.getElementById('inputText')
 const listBox = document.getElementById('list')
 const add = document.getElementById('add')
-
+//write to-do item  
+//submit to-do item 
+//see submitted item
+//check off items 
+//clear al
 let addTask = () => {
         if (inputText.value === '') {
         alert('must write something')
@@ -36,18 +40,3 @@ function saveOnExit() {
   }
   showTask()
 add.addEventListener('click', addTask)
-// function addTask() {
-
-
-//     if (inputText.value === '') {
-//         alert('must write something')
-//     } 
-//         else{
-    
-//     let li = document.createElement('li');
-//     li.innerHTML = inputText.value;
-//     listBox.appendChild(li)
- 
-//     }
-// }
-
