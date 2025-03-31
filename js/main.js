@@ -10,7 +10,7 @@ let addTask = () => {
         if (inputText.value === '') {
         alert('must write something')
     } else{
-        let li = document.createElement('li');
+        
         li.innerHTML = inputText.value;
         listBox.appendChild(li)
         let span = document.createElement('span')
